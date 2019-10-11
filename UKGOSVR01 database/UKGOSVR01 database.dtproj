@@ -26,18 +26,18 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">WDE01293</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMPt2wWavV0WxO5Qe7MnD6QAAAAACAAAAAAADZgAAwAAAABAAAAD4iwNLJ4MEK6X68vecd3opAAAAAASAAACgAAAAEAAAAH5Z2a6oH3QdjfBG6ldYVKqIAAAA29AYO9ZZrxqBB2J0Xpr8k0TK5xbWcjX57DZO+jNKm5OTbM9MCUt+bWWonogKUwrrDc74J+0H9miDE+xYflX8OuEa7HQbfnEl5W2JiiVyIsIDq1gpTiXC+h3OnamOFg8zf3RyxNs3mKsNKsHHCby6L5+g4LjfMI1MkRUzvSFJIkZ4XNastLdCFRQAAACjxFgmQMH+WmonjBlQ+x7Ok2ZShg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMPt2wWavV0WxO5Qe7MnD6QAAAAACAAAAAAADZgAAwAAAABAAAACGzVuZOPsuQlZyVYD3d6lOAAAAAASAAACgAAAAEAAAABKUrcc0xGMBU+I51Q+BUAKIAAAAU5ki72r2Z//Lw9A5gCiD7RezR844o0cyn1bXLhDLlCOl/+vekdgMZB7b3Cytupy5EqkgmUAbttJYqgU6an6siZA4EWkbD308UaU3QCNpoyVGQM8SyAa9wKd212bG/x3DFeL1KgerFOHoX8hnEPGSt2N+SmYV++dtt/XZ8YIa0ijP63Lb4bwYzhQAAAAwXmVn9tREc2st7JXZ7FmaGoK7Yw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
-          <SSIS:ConnectionManager SSIS:Name="UKGOSVR01.Glen_TEST 1.conmgr" />
+          <SSIS:ConnectionManager SSIS:Name="UKGOSVR01.Glen_TEST.conmgr" />
         </SSIS:ConnectionManagers>
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters>
-            <SSIS:Parameter SSIS:Name="CM.UKGOSVR01.Glen_TEST 1.ConnectionString">
+            <SSIS:Parameter SSIS:Name="CM.UKGOSVR01 Glen_TEST.ConnectionString">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -52,7 +52,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.UKGOSVR01.Glen_TEST 1.InitialCatalog">
+            <SSIS:Parameter SSIS:Name="CM.UKGOSVR01 Glen_TEST.InitialCatalog">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -67,7 +67,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.UKGOSVR01.Glen_TEST 1.Password">
+            <SSIS:Parameter SSIS:Name="CM.UKGOSVR01 Glen_TEST.Password">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -81,7 +81,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.UKGOSVR01.Glen_TEST 1.RetainSameConnection">
+            <SSIS:Parameter SSIS:Name="CM.UKGOSVR01 Glen_TEST.RetainSameConnection">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -96,7 +96,7 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.UKGOSVR01.Glen_TEST 1.ServerName">
+            <SSIS:Parameter SSIS:Name="CM.UKGOSVR01 Glen_TEST.ServerName">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>
@@ -111,7 +111,7 @@
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.UKGOSVR01.Glen_TEST 1.UserName">
+            <SSIS:Parameter SSIS:Name="CM.UKGOSVR01 Glen_TEST.UserName">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
                 </SSIS:Property>

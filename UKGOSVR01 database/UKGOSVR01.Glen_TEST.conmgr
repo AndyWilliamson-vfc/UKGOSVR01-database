@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
-  DTS:ObjectName="UKGOSVR01.Glen_TEST"
-  DTS:DTSID="{730F7053-9253-44A5-8A42-38DBFE46BD4A}"
+  DTS:ObjectName="UKGOSVR01 Glen_TEST"
+  DTS:DTSID="{DE499329-FF48-43F5-9D12-75FE6FC4BD98}"
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager
